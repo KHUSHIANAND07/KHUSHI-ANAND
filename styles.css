@@ -1,0 +1,203 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #0d0909;
+    background-color: #acabae;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Home Section */
+#home {
+    background-image: url('event.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #8706f8;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: aquamarine;
+}
+
+#home .banner {
+    p{color:#f80505}
+    background-color: rgba(191, 252, 8, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#home h1 {
+    font-size: 3em;
+}
+
+#home p {
+    font-size: 1.2em;
+}
+
+/* Schedule Section */
+#schedule {
+    padding: 50px 20px;
+    background-color: #ecd904;
+    text-align: center;
+}
+
+#schedule h2 {
+    margin-bottom: 20px;
+}
+
+#schedule ul {
+    list-style: none;
+    padding: 0;
+}
+
+#schedule ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #07ea29;
+}
+
+/* Speakers Section */
+
+
+#speakers {
+    background-color: #ff6347;
+
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#speakers h2 {
+    background-color: #ff6347;
+
+    margin-bottom: 20px;
+}
+
+.speaker {
+    background-color: #ff6347;
+
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+}
+
+.speaker img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.speaker h3 {
+    font-size: 1.2em;
+}
+
+/* Venue Section */
+#venue {
+    padding: 50px 20px;
+    background-color: #f607a6;
+    text-align: center;
+}
+
+#venue h2 {
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #47ff87;
+
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: inline-block;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contact button:hover {
+    background-color: #ff6347;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .speaker {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
